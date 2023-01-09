@@ -24,6 +24,8 @@ How many roles need to be filled after the "silver tsunami?". Referring to the R
 
 Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
 ![](/mentorship_total.png)
+
 Here is a query that might help us solve this question. The corresponsing table looks like this.
+
 ![](/mentorship_total_table.png)
 
