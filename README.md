@@ -16,6 +16,7 @@ We then filtered the retirement titles table using "DISTINCT" to ensure we only 
 The retiring titles table we create allows us to make use of the unique titles table. Essentially we just count of all our values in unique titles, so that we are able to see numerically just how many people in total left the company. 
 
 ![count](/unique_retiring.png)
+
 Query that creates unique titles, then counts the total for each title.
 
 ![retirees](/retiring_table.png)
