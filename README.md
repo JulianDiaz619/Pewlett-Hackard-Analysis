@@ -29,3 +29,4 @@ Here is a query that might help us solve this question. The corresponsing table 
 
 ![](/mentorship_total_table.png)
 
+I think the ratio is quite large from employees that need to be hired compared to the employees that are eligible for the mentorship program, but as long as they have a good training program I think the newcoming employees won't have too hard of a time adjusting to the company, also considering the majority of people that need to be hired are Senior Engineers, it implies that they already have a lot of experience with their job .
