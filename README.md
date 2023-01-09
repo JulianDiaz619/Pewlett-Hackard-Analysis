@@ -13,8 +13,13 @@ This analysis started off by creating a table based on employees born between 19
 We then filtered the retirement titles table using "DISTINCT" to ensure we only get one value of each employee, and further filtering it by only keeping values in which the "to_date" column is equal to '9999-01-01', which in our data, indicates that the employee has already left the company. Now that we have all unique values of employees who have retired, we need to count them, which is what we do in the "Retiring Titles" table.
 ![retirees](/unique_table.png)
 #### Retiring Titles Table
-The retiring titles table we create allows us to make use of the unique titles table. Essentially we just a count of all our values in unique titles, so that we are able to see numerically just how many people in total left the company. 
+The retiring titles table we create allows us to make use of the unique titles table. Essentially we just count of all our values in unique titles, so that we are able to see numerically just how many people in total left the company. 
+
+![count](/unique_retiring.png)
+Query that creates unique titles, then counts the total for each title.
+
 ![retirees](/retiring_table.png)
+
 This table has the most vital information in our analysis I believe. What this table tells us is the total amount of retirees by title, which tells us how many of each title need to be hired.
 #### Mentorship Program Eligibility Table
 Now that we finished up seeing how many retirees the company has, we were instructed to create a table for employees eligible for a mentorship program.
