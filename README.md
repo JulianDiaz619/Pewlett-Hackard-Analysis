@@ -14,6 +14,16 @@ We then filtered the retirement titles table using "DISTINCT" to ensure we only 
 ![retirees](/unique_table.png)
 #### Retiring Titles Table
 The retiring titles table we create allows us to make use of the unique titles table. Essentially we just a count of all our values in unique titles, so that we are able to see numerically just how many people in total left the company. 
-![]()
+![retirees](/retiring_table.png)
+This table has the most vital information in our analysis I believe. What this table tells us is the total amount of retirees by title, which tells us how many of each title need to be hired.
 #### Mentorship Program Eligibility Table
 Now that we finished up seeing how many retirees the company has, we were instructed to create a table for employees eligible for a mentorship program.
+![mentorship](/mentorship_table.png)
+## Summary 
+How many roles need to be filled after the "silver tsunami?". Referring to the Retiring Titles table, we can see a total of 25916 Senior Engineers, 24926 Senior Staff, 9285 Engineers, 7636 Staff, 3603 Technique Leaders, 1090 Assistant Engineers, and 2 Managers need replacing. Quite a lot of people!
+
+Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+![](/mentorship_total.png)
+Here is a query that might help us solve this question. The corresponsing table looks like this.
+![](/mentorship_total_table.png)
+
